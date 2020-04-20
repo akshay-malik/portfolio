@@ -5,19 +5,7 @@
   --link-color: #00A8E8;
   --link-color-hover: #007EA7;
   --heading-color: #333;
-  --hr-color: rgba(0,0,0,.1);
-}
-@media (prefers-color-scheme: dark) {
-  :root {
-    --body-bg: #212529;
-    --body-color: #6c757d;
-    --body-font-weight: 300;
-    --link-color: #dee2e6;
-    --link-color-hover: #fff;
-    --heading-color: #fff;
-    --whoami-color: #727272;
-    --hr-color: rgba(255,255,255,.1);
-  }
+  --hr-color: rgba(0,0,0,.4);
 }
 
 * {
@@ -52,12 +40,12 @@ a:hover {
 }
 h1, h2, h3 {
   margin-top: 0;
-  font-weight: 500;
 }
 h1 {
   margin-bottom: .5rem;
   font-size: 2.25rem;
   line-height: 1;
+  font-weight: 500;
 }
 h1 a {
   color: var(--heading-color);
@@ -68,16 +56,32 @@ h1 span {
 }
 h2 {
   margin-bottom: 1rem;
-  font-size: 1rem;
-  color: var(--body-color);;
+  margin-top: 0rem;
+  font-size: 2rem;
+  color: var(--body-color);
+  font-weight: 100;
 }
 h3 {
   margin-bottom: 0;
   font-size: 1.25rem;
+  font-weight: 500;
+  line-height: normal;
 }
 p {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 0rem;
+}
+#time-team {
+  margin-top: 0;
+  margin-bottom: 1.4rem;
+  font-weight: 200;
+}
+#footnote{
+  margin-top: 0;
+  margin-bottom: 0rem;
+  font-weight: 100;
+  font-size: 1.1rem;
+
 }
 .lead {
   font-size: 1.25rem;
@@ -85,7 +89,7 @@ p {
   color: var(--heading-color);;
 }
 hr {
-  width: 6rem;
+  width: 20em;
   height: 1px;
   margin: 2.5rem 0;
   background-color: var(--hr-color);
