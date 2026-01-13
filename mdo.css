@@ -122,7 +122,7 @@ hr {
   font-style: normal;
 }
 [class^="icon-"]:before {
-  font-family: "fontello";
+  font-family: "fontello", serif;
   font-style: normal;
   font-weight: normal;
   speak: none;
@@ -135,7 +135,7 @@ hr {
   text-transform: none;
 }
 .icon-mail:before { content: '\e804'; } /* '' */
-.icon-dribbble:before { content: '\e801'; } /* '' */
+.icon-dribble:before { content: '\e801'; } /* '' */
 .icon-github:before { content: '\e800'; } /* '' */
 .icon-twitter:before { content: '\e802'; } /* '' */
 .footer {
